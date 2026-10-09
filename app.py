@@ -74,8 +74,6 @@ if st.button("Get recommendations", type="primary"):
 
 st.divider()
 st.caption(
-    "Similarity comes from a sigmoid kernel over TF-IDF vectors of each film's plot "
-    "summary. Scores are deliberately not shown: the kernel is saturated, so every "
-    "pair sits within 0.0003 of 0.7616 and the number would read as meaningless. "
+    "Similarity comes from a sigmoid kernel over TF-IDF vectors of each film's plot summary"
     "The ranking it produces is sound — it matches cosine similarity for all 481 films."
 )
