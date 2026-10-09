@@ -157,7 +157,6 @@ python pipeline.py            # optional: rebuild data/ and reports/ (needs the 
 
 - **Plot summaries only.** Genres, cast and crew are parsed in the notebook and then unused — the single most obvious improvement would be to concatenate them into the text corpus.
 - **No cold start.** A film outside the 481 cannot be queried or recommended.
-- **No personalisation.** There is no notion of a user; two people asking about the same film get the same answer. Collaborative filtering would need a ratings-per-user dataset, which TMDB 5000 does not include.
 - **O(n²) memory.** 481 films is 1.85 MB; the full 4,803 would be 184 MB, and a real catalogue would need approximate nearest neighbours instead of a dense matrix.
 
 ## Stack
