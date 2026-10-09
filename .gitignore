@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Raw TMDB source data — download from Kaggle, see README
+tmdb_5000_movies.csv
+tmdb_5000_credits.csv
+
+# Superseded local artifacts
+dump 2/
+temp.py

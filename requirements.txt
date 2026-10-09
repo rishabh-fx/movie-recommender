@@ -1,0 +1,5 @@
+# Floors, not hard pins: the app uses only long-stable APIs, and an exact pin is
+# the most common cause of a failed Streamlit Cloud build.
+streamlit>=1.37
+pandas>=2.2
+numpy>=1.26

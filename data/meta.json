@@ -1,0 +1,7 @@
+{
+  "movies": 481,
+  "vote_count_cutoff": 1838,
+  "tfidf_features": 1287,
+  "kernel_mb": 1.85,
+  "cosine_agreement": "481/481"
+}
