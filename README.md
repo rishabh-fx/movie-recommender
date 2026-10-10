@@ -4,7 +4,7 @@ A content-based movie recommender built on the TMDB 5000 dataset, deployed as a
 Streamlit app. Pick a film, get ten similar ones, ranked by the language of their
 plot summaries.
 
-**[▶ Try the live app](https://movie-recommender-rishabh.streamlit.app)**
+**[▶ Try the live app](https://movie-recommender-rix.streamlit.app)**
 
 ---
 
